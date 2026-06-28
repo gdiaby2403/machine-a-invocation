@@ -10,7 +10,7 @@
 <body>
     <h1> La Machine à Invocation</h1>
     <section>
-    <form action="" id="invocation">
+    <form action="" id="invocation" class="cache">
         <label for="prenom">Prenom :</label>
             <input  type="text" id="prenom">
         <label for="creature"></label>
@@ -23,8 +23,9 @@
     </form>
     </section>
     <button type="submit" id="btn-invoquer">Invoquer !</button>
-    <section id="resultat">
-        <p id="message" class="cache"></p>
+    <section id="resultat" class="cache">
+        <p id="message" ></p>
+        <button id="recommencer" class="cache">Renvoyer la créature</button>
     </section>
 <script src="script.js"defer></script>  
 </body>
