@@ -3,11 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>La Machine à invocation</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<script src="script.js defer"></script>
+
 <body>
-    
+    <h1> La Machine à Invocation</h1>
+    <section>
+    <form action="" id="invocation">
+        <label for="prenom">Prenom :</label>
+            <input  type="text" id="prenom">
+        <label for="creature"></label>
+            <select name="choix_creature" id="creature">
+                <option value="">Chat-Octo</option>
+                <option value="">Dragon-Debug</option>
+                <option value="">Licorne-CSS</option>
+                <option value="">Renard-Refacto</option>
+            </select>
+    </form>
+    </section>
+    <button type="submit"></button>
+    <section id="resultat">
+        <p id="message"></p>
+    </section>
+<script src="script.js defer"></script>  
 </body>
 </html>
